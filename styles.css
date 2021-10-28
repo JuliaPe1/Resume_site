@@ -244,22 +244,34 @@ h4 {
 
 }
 
-.socialmedia {
-    height: 50px;
+footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    height: 50px;
     opacity: .7;
     background: #fff;
 }
 
+.socialmedia {
+    width: 15%; 
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.socialmedia a {
+    width: 50px;
+    height: 50px;
+}
+
 .icon1 {
-    background: no-repeat url(img/email.png);
-    width: 40px;
+    background: no-repeat url(img/email.svg);
+    background-size: 97%;
     height: 40px;
-    background-size: 108%;
     cursor: pointer;
-    margin: 5px 20px;
+    display: block;
 }
 
 .icon2 {
@@ -268,7 +280,8 @@ h4 {
     height: 40px;
     background-size: contain;
     cursor: pointer;
-    margin-right: 20px;
+    display: block;
+    margin-left: 4px;
 }
 
 .icon3 {
@@ -277,7 +290,8 @@ h4 {
     height: 40px;
     background-size: contain;
     cursor: pointer;
-    margin-right: 20px;
+    display: block;
+
 }
 
 .icon1:hover {
